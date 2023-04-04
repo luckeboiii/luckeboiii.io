@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    
+    <title>Pizza shop</title>
+  </head>
+<body>
+ <section class="banner">
+    <img src="./pizza_logo.png" class="logo">
+    <div class="banner-text">
+        <h1> Lukas pizzeria</h1>
+        <p>Pizza gjord på de bästa ingridienserna</p>
+        <div class="banner-btn">
+          <a href="#"><span></span>Meny</a>
+          <a href="#"><span></span>Hitta oss</a>
+        </div>
+    </div> 
+
+ </section>
+
+ <div id="sideNav">
+  <nav>
+  <ul>
+      <li><a href="#">START</a></li>
+      <li><a href="#">INGRIDIENSER</a></li>
+      <li><a href="#">HEMKÖRNING</a></li>
+      <li><a href="#">OM OSS</a></li>
+  </ul>
+  </nav>
+</div>
+<div id="menubtn">
+  <img src="./menu_icon2.png" id="menu">
+</div>
+
+<!-- Features -->
+
+<section id="feature">
+  <div class="feature-overlay"> </div>
+<div class="title-text">
+<p>FUNKTIONER</p>
+<h1>Varför du ska välja oss</h1>
+</div>
+<div class="funktion-box">
+  <div class="funktion">
+    <h1>Alltid de färskaste ingridienser på marknaden</h1>
+  </div>
+  <div class="feature-desc">
+    <div class="feature-text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit tellus at turpis euismod varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus nec mi et purus ornare sodales nec eu lectus. Vivamus lobortis est eget libero accumsan pellentesque. Aliquam pellentesque arcu eget ex interdum, eu iaculis tortor fringilla. Nulla id velit ac est bibendum blandit. Mauris et consequat felis. Duis congue a lorem nec dignissim. Vestibulum fringilla nibh sit amet leo mollis ornare. Praesent convallis, nunc eget tincidunt lobortis, magna risus tincidunt leo, vitae luctus libero eros eget ligula. Aliquam erat volutpat. Nam ac bibendum turpis.</p>
+    </div>
+  </div>
+    <div class="funktion-img">
+          <div class="bild">
+        <img src="./tomat.jpg" style="width:100%">
+      </div>
+      <div class="bild">
+        <img src="./pizza_pizza.jpg" style="width: 100%">
+      </div>
+      <div class="bild">
+        <img src="./pizza_nära.jpg" style="width: 100%">
+      </div>
+    </div> 
+</div>
+</section>
+
+
+<script>
+var menubtn = document.getElementById("menubtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+menubtn.onclick = function(){
+  if(sideNav.style.right == "-250px"){
+    sideNav.style.right = "0";
+    menu.src = "./menu_close2.png";
+  }
+  else{
+    sideNav.style.right = "-250px";
+    menu.src = "./menu_icon2.png";
+  }
+}
+</script>
+
+</body>
+</html>
