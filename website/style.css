@@ -78,7 +78,7 @@
   position: fixed;
   right: -250px;
   top: 0;
-  background: linear-gradient(rgba(255, 102, 0, 0.712), #ffbb00);;
+  background: linear-gradient(rgba(255, 102, 0, 0.712), #ffbb00);
   z-index: 2;
   transition: 0.5s;
   font-family: 'Shadows Into Light', cursive;
@@ -255,8 +255,6 @@ nav ul li a{
   .funktion-img img{
     width: 100%;
   }
-
-
 }
 
 
