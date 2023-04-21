@@ -1,0 +1,29 @@
+{
+	"localhost": "localhost",
+	"port": 8000,
+	"buildPath": "./build",
+	"root": "index.html",
+	"html": [
+		"./src",
+		"./src/Components"
+	],
+	"cssPath":
+	[
+		"./src/css"
+	],
+	"jsPath":
+	[
+		"./src/js"
+	],
+	"pages": [
+		"./src/index.html"
+	],
+	"vars": {
+		"logo": "GFX/Logo.svg",
+		"logoDark": "GFX/LogoDark.svg",
+		"hamIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFFJREFUSEvtlEkKADAIA83/H52eu1APZQShnquTBaqAR/D9+IA04fqIbDuVdXkgaRK9OcABL+pPu/Ud4A7wDnAAHlF/AN4BDujfwXewJoD/pgNrVBgZX2h0sgAAAABJRU5ErkJggg=="
+	},
+	"autoRefresh": {
+		"ignore" : ["./build", "./.git", ".py", ".json", "./LICENSE"]
+	}
+}
